@@ -19,6 +19,30 @@ We have designed and developed this library as a wrapper around the existing Ent
 	<li>Test-friendly implementation.</li>
 </ol>
 
+## Installation 
+You can get EFxceptions [Nuget](https://www.nuget.org/packages/EFxceptions/) package by typing:
+```powershell
+Install-Package EFxceptions
+```
+
+# EFxceptions.MySql
+
+[![preview version](https://img.shields.io/nuget/vpre/EFxceptions.MySql)](https://www.nuget.org/packages/EFxceptions.MySql/absoluteLatest)
+
+We have designed and developed this library as a wrapper around the existing EntityFramework DbContext implementation to provide the following values:
+
+<ol>
+	<li>Meaningful Exceptions for MySql codes.</li>
+	<li>Simplified integrations</li>
+	<li>Test-friendly implementation.</li>
+</ol>
+
+## Installation 
+You can get EFxceptions.MySql [Nuget](https://www.nuget.org/packages/EFxceptions.MySql/) package by typing:
+```powershell
+Install-Package EFxceptions.MySql
+```
+
 <br>
 
 # EFxeptions.Identity
@@ -28,9 +52,23 @@ A dedicated EFxeptions port that provides an `EFxceptionContext` that inherits f
 Available in the [EFxceptions.Identity](https://www.nuget.org/packages/EFxceptions.Identity) package.
 
 ## Installation 
-You can get EFxceptions [Nuget](https://www.nuget.org/packages/EFxceptions/) package by typing:
+You can get EFxceptions.Identity [Nuget](https://www.nuget.org/packages/EFxceptions.Identity/) package by typing:
 ```powershell
-Install-Package EFxceptions
+Install-Package EFxceptions.Identity
+```
+
+<br>
+
+# EFxeptions.Identity.MySql
+[![preview version](https://img.shields.io/nuget/vpre/EFxceptions.Identity.MySql)](https://www.nuget.org/packages/EFxceptions.Identity.MySql/absoluteLatest)
+
+A dedicated EFxeptions port that provides an `EFxceptionContext` that inherits from `Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityDbContext` to inherit from, to support Microsoft ASP.Core Identity using EF Core.
+Available in the [EFxceptions.Identity.MySql](https://www.nuget.org/packages/EFxceptions.Identity.MySql) package.
+
+## Installation 
+You can get EFxceptions.Identity.MySql [Nuget](https://www.nuget.org/packages/EFxceptions.Identity.MySql/) package by typing:
+```powershell
+Install-Package EFxceptions.Identity.MySql
 ```
 
 <br>
